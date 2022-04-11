@@ -1,0 +1,33 @@
+.container_input{
+  width: max(50%, 500px);
+  background-color: #1F2A48;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.input_search-content{
+  width: max(100%, 500px);
+  background-color: #1F2A48;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 8px;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.input_search-content::placeholder{
+  color: #fff;
+  font-size: 15px;
+}
+
+@media  screen and (max-width: 1622px) {
+  .container_input{
+    width: max(50% , 360px);
+  }
+
+  .input_search-content{
+    width: max(100%, 360px);
+  }
+  
+}
